@@ -8,6 +8,7 @@ font-family: "Roboto", sans-serif;*/
   --primary-white-color: #ffffff;
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
   --footer-background-color: #2f303a;
+  --activity-background-color: rgba(47, 48, 58, 0.8);
 }
 
 body {
@@ -15,10 +16,10 @@ body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
   text-decoration: none;
-
+  font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 1.19;
+  font-size: 14px;
+  line-height: 1.71;
 }
 .list {
   list-style: none;
@@ -31,10 +32,57 @@ body {
 .link:focus {
   color: var(--accent-color);
 }
-.title {
-  color: var(--title-text-color);
+.hero{
+  background-color: var(--primary-text-color);
 }
-.btn {
+.page-title{
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.61;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+.section-title {
+  color: var(--title-text-color);
+  font-weight:700;
+font-size: 28px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+}
+.title{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--title-text-color)
+
+}
+.person-name{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--title-text-color)}
+.profesion{
+  font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
+
+.hero-btn {
+    font-weight: 700;
+  font-size: 16px;
+ line-height: 1.875;
+   align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+    
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -47,8 +95,11 @@ body {
   color: var(--accent-color);
 }
 .logo-end {
-  color: var(--title-text-color);
-}
+  color: var(--title-text-color);}
+
+ .logo-end-footer {
+    color: var(--primary-white-color);
+  }
 .nav-list-item {
   font-weight: 500;
   font-size: 14px;
@@ -67,7 +118,6 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  text-align: center;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -76,4 +126,16 @@ body {
 }
 .footer {
   background-color: var(--footer-background-color);
+}
+.activity{
+  color: var(--primary-white-color);
+  background-color: var(--activity-background-color) ;
+}
+.join{
+  font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--primary-white-color);
 }
